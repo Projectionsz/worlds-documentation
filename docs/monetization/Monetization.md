@@ -522,3 +522,7 @@ Ready to push your skills further? Try these challenges.
 
 ### Advanced Challenge
 **Task**: Create a pitch deck for your world. Take screenshots of your most engaging areas, pull your best metrics from the Creator Portal—like your PU (Percent of Paying Users) and ARPPU (Average Revenue per Paying User)—and write a one-page summary. You can use this to approach brands for sponsorships or to get commission work.
+
+### Further Assistance
+For any questions or further assistance, creators are encouraged to join the discussion on the [Creator Forums](https://communityforums.atmeta.com/category/Meta_Horizon_Creator_Forums) or join a live mentor session.
+
