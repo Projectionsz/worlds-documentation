@@ -94,7 +94,7 @@ All monetization must adhere to Meta Horizon Worlds Content Guidelines and Creat
 
 ---
 
-# Step 3: The Arsenal - A Example IWP Implementation Guide
+# Step 3: The Arsenal - The Monetization Toolkit: A Conceptual Guide
 
 ## Understanding the Foundation: What You're Building
 
@@ -151,12 +151,12 @@ You can edit which items are displayed, the order of the items and the quantity 
 
 ## Beginner Setup for IWP
 
-1. **Start simple**: Create one durable item (like a VIP pass) with the purchase event listener
-2. **Add access control**: Use entitlement checks at doors/areas
+1. **Start simple**: Design a durable item, like a VIP pass, and set it up in your in-world shop.
+2. **Add access control**: Design an exclusive area that only opens for players who own the VIP pass.
 3. **Try consumables**: Create a health potion with consume tracking and request handling
 4. **Scale up**: Add item packs and multiple purchase points
 
-This progression takes you from a basic "buy something" system to a full monetization ecosystem where purchases meaningfully impact your world experience.
+This progression takes you from a basic "buy something" system to a enhanced monetization ecosystem where purchases meaningfully impact your world experience.
 
 ## Step 4: The Art of the Sale - Advanced Creative Strategies
 With the setup complete, let's focus on the creative strategy that drives sales.
