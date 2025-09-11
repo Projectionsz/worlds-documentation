@@ -188,28 +188,11 @@ Map your players' path to purchase using this five-stage framework optimized for
 **Retention Phase**: Focus on community building and progressive value. First-time buyers are much more likely to make repeat purchases, so nurture these relationships and increase lifetime value and creating intuitive triggers.
 
 ### 4.3 - Seasonal Monetization Calendar: Year-Round Revenue Strategy
-Plan your monetization events strategically throughout the year:
+Plan your monetization events strategically throughout the year, take this calendar as an example:
 
-**Q1 Strategy (January-March)**:
-- "New Year, New Worlds" themes with fresh start mechanics
-- Valentine's Day social bonding activities and couple-themed items (perform exceptionally well in VR social environments)
-- Events like Lunar New Year which could present opportunities for new items and discounts
 
-**Q2 Implementation (April-June)**:
-- Spring renewal themes with egg hunt mechanics and pastel aesthetics for Easter
-- Pride Month community celebrations with charitable tie-ins
-- Graduation/summer preparation content (typically lowest organic engagement quarter - ideal for creator spotlight programs)
+<img width="1119" height="1195" alt="Screenshot 2025-09-10 180448" src="https://github.com/user-attachments/assets/7c28cf2a-2231-49b7-bb84-c15ac252e9f6" />
 
-**Q3 Execution (July-September)**:
-- Summer activities and vacation themes
-- Back-to-school content for student acquisition (crucial period as new students enter platforms)
-- Cultural events like Mid-Autumn Festival
-
-**Q4 Monetization (October-December)**:
-- Revenue peak season
-- Halloween horror themes and costume contests
-- Thanksgiving gratitude mechanics
-- Winter holiday celebrations with major Black Friday/Cyber Monday sales events
 
 **Implementation Best Practices**: Use phased event rollouts with week-long teasers, main event periods, and final FOMO pushes. Create event-specific currency and limited-time stores to boost scarcity.
 
@@ -282,6 +265,8 @@ Each world has a monthly maximum limit of **$250,000** across all bonus types, b
 - Members are eligible to earn for the first 28 days of the month, regardless of when they sign up
 - All monthly bonus earnings paid within 60 days following the end of each bonus period
 
+<img width="618" height="332" alt="Screenshot 2025-09-10 181000" src="https://github.com/user-attachments/assets/8da68736-3159-4f4d-9738-667231bbd7ac" />
+
 ### 5.1 - Time Spent on Headset Bonus
 
 **What it rewards**: Creating worlds that attract the most VR engagement time.
@@ -343,13 +328,7 @@ Same percentage-based system as headset bonus, but for mobile engagement time.
 
 Your bonus is calculated using both your IWP earnings AND a multiplier based on average Meta Credits exchanged per visitor:
 
-| Average Meta Credits per Visitor | Multiplier | Effect |
-|----------------------------------|------------|---------|
-| Less than 1 | 70% | Penalty for low engagement |
-| 1-5 | 80% | Below baseline |
-| 5-10 | 90% | Approaching baseline |
-| 10-15 | 100% | Baseline (no penalty/bonus) |
-| More than 15 | 110% | Bonus for high engagement |
+<img width="884" height="293" alt="Screenshot 2025-09-10 175334" src="https://github.com/user-attachments/assets/22157482-627a-4aa1-8d73-18a08c845f04" />
 
 ### Example Calculation
 - Direct IWP sales: $2,000
@@ -382,15 +361,7 @@ Both generate the same revenue, but the first strategy earns 110% multiplier whi
 
 ### Milestone Structure
 
-| Mobile Monthly Active Users | Monthly Mobile Time | Reward |
-|----------------------------|-------------------|---------|
-| 10 | 6 hours | $25 |
-| 30 | 15 hours | $100 |
-| 50 | 30 hours | $500 |
-| 100 | 50 hours | $1,000 |
-| 200 | 100 hours | $1,000 |
-| 200 | 200 hours | $1,000 |
-| 200 | 350 hours | $1,000 |
+<img width="659" height="389" alt="Screenshot 2025-09-10 175135" src="https://github.com/user-attachments/assets/09785bbc-55ca-48c3-8d07-fea2ce1c3d17" />
 
 **Total Possible**: $4,500 in one-time milestone rewards
 
@@ -451,7 +422,10 @@ Don't guess what works—use data. Combine direct purchase analytics with bonus 
 ### 6.1 - Essential Metrics to Track
 
 Important terms to know:
-<img width="1735" height="460" alt="Screenshot 2025-09-10 171810" src="https://github.com/user-attachments/assets/4125e862-f3a1-45ef-83fd-8479fc6930b0" />
+
+
+<img width="1105" height="314" alt="Screenshot 2025-09-10 175435" src="https://github.com/user-attachments/assets/7831c344-2379-4bb2-b25c-e5367876a054" />
+
 
 **Access your analytics**: Creator Portal > Creator Program > Bonuses. Data updates every 24 hours (may be delayed up to 2 days).
 
@@ -472,6 +446,10 @@ Test systematically to optimize both direct sales and bonus performance:
 - Week 2 (Test): Health Potion at 75 Credits
 - **Analysis**: Compare both units sold AND total revenue. More units at lower price doesn't always mean higher revenue.
 
+Example Data:
+
+<img width="897" height="265" alt="Screenshot 2025-09-10 175619" src="https://github.com/user-attachments/assets/ff7dec62-b1bf-4af3-929f-cc57f1edff34" />
+
 **Additional Testing Variables**:
 - UI placement and design (button vs icon vs trigger)
 - Purchase timing triggers (post-achievement vs random)
@@ -489,6 +467,8 @@ Test systematically to optimize both direct sales and bonus performance:
 - **Target Metric**: 15+ average Meta Credits exchanged per visitor for 110% multiplier
 - **Strategy**: Better to have 100 visitors spending 20 credits each than 200 visitors with 50 spenders at 40 credits each
 
+<img width="1010" height="866" alt="Screenshot 2025-09-10 175744" src="https://github.com/user-attachments/assets/76c9831d-6a25-4aab-b931-aeac0bbb10aa" />
+
 ### 6.4 - Revenue Performance Benchmarks
 
 **Conversion Rate Optimization**:
@@ -504,10 +484,8 @@ Test systematically to optimize both direct sales and bonus performance:
 4. **Mobile Milestones**: One-time bonuses up to $4,500 total
 
 **Monthly Revenue Calculation Example**:
-- Direct IWP sales: $2,000
-- IWP bonus (110% multiplier): $200 additional
-- Time spent bonus share: $500
-- **Total monthly earnings**: $2,700 (35% higher than direct sales alone)
+
+<img width="784" height="412" alt="Screenshot 2025-09-10 175947" src="https://github.com/user-attachments/assets/08546422-038f-443a-b5ca-3b109e0412f6" />
 
 
 # Conclusion: Your Journey as a Creator-Entrepreneur
