@@ -38,7 +38,7 @@ Before you can earn, you must be accepted into the Meta Horizon Creator Program 
 
 **Submit Your Application**: Follow the on-screen instructions to sign up and apply for the program.
 
-## Step 2: The Foundation - Designing a Monetizable Economy
+# Step 2: The Foundation - Designing a Monetizable Economy
 Great monetization isn't about asking for money; it's about creating value that players want to pay for. This starts with your world's fundamental economic design.
 
 ### 2.1 - Workshop: Defining Your Core Loop
@@ -158,7 +158,7 @@ You can edit which items are displayed, the order of the items and the quantity 
 
 This progression takes you from a basic "buy something" system to a enhanced monetization ecosystem where purchases meaningfully impact your world experience.
 
-## Step 4: The Art of the Sale - Advanced Creative Strategies
+# Step 4: The Art of the Sale - Advanced Creative Strategies
 With the setup complete, let's focus on the creative strategy that drives sales.
 
 ### 4.1 - The Psychology of a Purchase: Why Players Buy
@@ -416,7 +416,7 @@ Meta measures visitors over a **2-week rolling period**. For any given date, the
 
 This bonus system can transform your monetization from single-stream revenue to a diversified income portfolio, significantly increasing your earning potential while rewarding quality world-building and player engagement.
 
-## Step 6: Analytics & Optimization - Data-Driven Revenue Growth
+# Step 6: Analytics & Optimization - Data-Driven Revenue Growth
 Don't guess what works—use data. Combine direct purchase analytics with bonus program metrics for comprehensive optimization.
 
 ### 6.1 - Essential Metrics to Track
