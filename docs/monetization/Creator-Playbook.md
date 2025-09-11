@@ -25,7 +25,7 @@ By reading and reviewing this guide, you will be able to:
 - Design a pricing structure that caters to a wide range of player types.
 - Use analytics to make data-driven decisions and optimize your revenue.
 
-## Step 1: The Gateway - Join the MHCP
+# Step 1: The Gateway - Join the MHCP
 Before you can earn, you must be accepted into the Meta Horizon Creator Program (MHCP). This is the official, mandatory program that unlocks all monetization tools and support systems.
 
 ### How to Apply:
