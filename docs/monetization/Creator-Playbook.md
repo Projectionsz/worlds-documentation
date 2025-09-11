@@ -1,7 +1,7 @@
 # The Creator's Playbook: A Deep Dive into Monetizing Your Horizon World
 
 ## Introduction
-This playbook is your step-by-step guide to mastering the art and science of monetization in Meta Horizon Worlds. We will move from the foundational mindset required to build a monetizable world to the advanced, data-driven strategies used by creators to maximize revenue while enhancing the player experience.
+This playbook is a step-by-step guide for mastering the science of monetization in Meta Horizon Worlds.
 
 ## Creator Skill Level
 All levels. Whether you're just starting or are an experienced world builder, these principles can be applied to any project.
