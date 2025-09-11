@@ -498,16 +498,15 @@ Treat your world as a living business. Listen to your community, analyze your da
 
 For any questions or further assistance, creators are encouraged to join the discussion on the [Creator Forums](https://communityforums.atmeta.com/category/Meta_Horizon_Creator_Forums) or join a live mentor session.
 
+Videos summarized and refrenced in this guide can be found below for further research:
 
-### Extended Learning & Advanced Monetization
-Ready to push your skills further? Try these challenges.
+[A Guide to Core Loops, User Onboarding & Monetization | Horizon Worlds](https://www.youtube.com/watch?v=-_XcPtVrx3w)
 
-### Novice Challenge
-**Task**: Implement a Daily Login Reward system that grants players small amounts of in-world currency for returning each day. This is a direct tactic to boost your 7-day retention bonus.
+[Boost IWP & Retention with Data-Driven Monetization | Horizon Worlds](https://www.youtube.com/watch?v=NdP2yDdYhjw)
 
-### Intermediate Challenge
-**Task**: Build a "Battle Pass" system. Create a series of 10 challenges. Players can progress for free to unlock 5 rewards. Sell a "Premium Pass" IWP for $9.99 that allows players to unlock all 10 rewards as they complete the challenges.
+[Plan Your World: Game Design & Monetization Sheet](https://www.youtube.com/watch?v=jGmPJ7NpJEk)
 
-### Advanced Challenge
-**Task**: Create a pitch deck for your world. Take screenshots of your most engaging areas, pull your best metrics from the Creator Portal, like your PU (Percent of Paying Users) and ARPPU (Average Revenue per Paying User) and write a one-page summary. You can use this to approach brands for sponsorships or to get commission work.
+[Monetization in Horizon Worlds 💸🌎](https://www.youtube.com/watch?v=6V3_ifUcruY)
+
+
 
