@@ -53,6 +53,8 @@ Your Core Loop is the repeating cycle of activities that keeps players engaged. 
 **3. The PROGRESSION**: How does the reward make future actions better or different?
 *Example: They spend Scrap to buy new weapon attachments and use XP to level up, unlocking new weapons and cosmetic armor.*
 
+<img width="774" height="552" alt="Screenshot 2025-09-10 133254" src="https://github.com/user-attachments/assets/f5ab8597-f4f3-48b9-b9f6-04b3ddb42988" />
+
 This loop ensures that your rewards (Scrap, XP, etc.) have tangible value.
 
 ### 2.2 - Sources, Sinks, and Creating Demand
@@ -92,7 +94,7 @@ All monetization must adhere to Meta Horizon Worlds Content Guidelines and Creat
 
 ---
 
-# Step 3: The Arsenal - Complete Technical IWP Implementation Guide
+# Step 3: The Arsenal - A Example IWP Implementation Guide
 
 ## Understanding the Foundation: What You're Building
 
@@ -108,6 +110,8 @@ Before diving into code, understand that you're creating a complete purchase sys
 
 Start by opening your world in edit mode. Navigate to the Creator User Interface (CUI) and go to **Systems > Commerce**. This is your control center for all monetization.
 
+<img width="513" height="440" alt="457300297_534752535729369_5490733446658993063_n" src="https://github.com/user-attachments/assets/e4a10a99-ea7e-4e41-b8d7-3fceda7c4107" />
+
 ### 3.2 - Item Configuration
 
 When creating an item, you'll configure these essential fields:
@@ -119,6 +123,8 @@ When creating an item, you'll configure these essential fields:
   - **Consumable**: Single-use items (health potions, speed boosts)
   - **Auto-Consume**: Instantly applied, never appears in inventory (instant currency)
 
+<img width="384" height="506" alt="457488166_534752549062701_1266145566136354630_n" src="https://github.com/user-attachments/assets/25ff5b9b-598d-4b4c-9408-17ca221a032e" />
+
 ### 3.3 - Understanding Item Packs
 
 For consumable items, create value packs under "Item Packs" in the Commerce tab. Set a **sell price** (can offer bulk discounts) and **quantity**. Example: Single health potion for 25 credits, pack of 10 for 200 credits.
@@ -127,25 +133,21 @@ For consumable items, create value packs under "Item Packs" in the Commerce tab.
 
 For example, if you have a consumable called "jump booster" and you created a pack called "jump booster x50", you'll want to have two in-world purchase gizmos, one for each of them. And you will also want to have a script gizmo that's connected to the "jump booster".
 
+<img width="427" height="207" alt="457296725_534752555729367_2519635027218554233_n" src="https://github.com/user-attachments/assets/5004dcec-79c4-4c03-997e-1aca5cbc1ce6" />
+
 ## Phase 2: Setting Up Purchase Points
 
 ### 3.4 - Placing Purchase Gizmos
 
-Navigate to **CUI > Build > Gizmos** and find the "In-World Purchase Gizmo." This is your cash register - where players interact to buy items.
+Navigate to **CUI > Build > Gizmos** and find the "World Shop" Gizmo This is your cash register - where players interact to buy items.
+
+<img width="1040" height="682" alt="Screenshot 2025-09-10 161656" src="https://github.com/user-attachments/assets/102b6318-7914-431e-a026-368e6a463a37" />
 
 ### 3.5 - Gizmo Configuration Options
 
-Configure three essential settings:
+You can edit which items are displayed, the order of the items and the quantity of each item. You also are able to attach custom scripts to the shopping interface.
 
-- **In-world item**: Select which item this gizmo sells
-- **Customize purchase dialog position**: 
-  - OFF = Dialog follows player's view
-  - ON = Dialog stays at gizmo location
-
-- **UI Property** (how players interact):
-  - **Trigger**: Invisible, activates when player touches it
-  - **Button**: Visible price button, requires click
-  - **Icon**: Shows purchase symbol instead of price
+<img width="299" height="986" alt="Screenshot 2025-09-10 162325" src="https://github.com/user-attachments/assets/812d4ecb-7ee9-4388-b804-e422fcce873e" />
 
 ## Phase 3: Making Purchases Actually Work
 
@@ -224,34 +226,7 @@ this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnItemConsumeStart, (pla
 })
 ```
 
-**What happens**: Player tries to use item → This script decides if they should be allowed → If you call `consumeItemForPlayer`, the item gets used up → If you don't call it, the item stays in their inventory.
-
-## Phase 4: Advanced Features
-
-### Getting All Player Purchases
-
-**Purpose**: Retrieves a complete list of everything a player owns from your world.
-
-**When to use**: For complex systems that need to check multiple purchases at once, or for debugging.
-
-**Can attach to**: Any object
-
-```typescript
-/*
-* Example showing how to get all player owned items
-*/
-this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnPlayerEnterWorld, async (player) => {
-  // Returns an array of all the items the player owns
-  const entitlements = await hz.WorldInventory.getPlayerEntitlements(player);
-  entitlements.forEach((entitlement) => {
-    console.log("Entitlement SKU: " + entitlement.sku);
-  });
-});
-```
-
-**What happens**: When player enters your world → Script gets their entire purchase history → You can set up their permissions, apply their cosmetics, unlock their areas all at once.
-
-## Implementation Order for Beginners
+## Beginner Setup for IWP
 
 1. **Start simple**: Create one durable item (like a VIP pass) with the purchase event listener
 2. **Add access control**: Use entitlement checks at doors/areas
@@ -268,14 +243,18 @@ Understand the core emotional drivers behind virtual purchases to tailor your of
 
 **Convenience**: The player's time is valuable. They will pay to skip a grind. (Target with: Currency packs, resource bundles).
 
+<img width="700" height="359" alt="Screenshot 2025-09-10 165718" src="https://github.com/user-attachments/assets/6b235c91-8dc5-4f71-b233-5e4a1de3c99e" />
+
+
 **Self-Expression**: Players want to stand out and show their personality. (Target with: Unique avatar cosmetics, custom home space items, special emotes).
 
-**Status & Recognition**: Players want to show their dedication and skill. (Target with: Exclusive titles, leaderboard flair, Founder's packs).
+<img width="492" height="297" alt="Screenshot 2025-09-10 172033" src="https://github.com/user-attachments/assets/a3bc426b-4274-405c-9381-9add5690b694" />
+
 
 ### 4.2 - Player Journey Mapping: From Visitor to Paying Customer
 Map your players' path to purchase using this five-stage framework optimized for VR monetization:
 
-**Discovery Phase**: Build anticipation before players even enter your world. Create social media teasers, community recommendations, and early bird rewards.
+**Discovery Phase**: Build anticipation before players even enter your world. Create social media teasers, community recommendations, and early bird rewards. Have a good thumbnail, title and description
 
 **Onboarding Phase**: New users are more receptive to low ticket / medium ticket purchase flows. Focus on promoting high-value starter bundles. 
 
@@ -309,7 +288,7 @@ Plan your monetization events strategically throughout the year:
 - Thanksgiving gratitude mechanics
 - Winter holiday celebrations with major Black Friday/Cyber Monday sales events
 
-**Implementation Best Practices**: Use phased event rollouts with week-long teasers, main event periods, and final FOMO pushes. Create event-specific currency and limited-time stores for artificial scarcity.
+**Implementation Best Practices**: Use phased event rollouts with week-long teasers, main event periods, and final FOMO pushes. Create event-specific currency and limited-time stores to boost scarcity.
 
 ### 4.4 - Ticket Pricing Strategy: Low, Mid, and High Ticket Offers
 Structure your pricing to capture different player segments and spending behaviors:
@@ -337,18 +316,34 @@ Structure your pricing to capture different player segments and spending behavio
 
 **Strategic Implementation**: Use low ticket offers to identify potential spenders, mid ticket offers as your revenue workhorses, and high ticket offers to maximize revenue from your most dedicated players. The 80/20 rule often applies - 20% of your buyers will generate 80% of your revenue through mid and high ticket purchases.
 
+This chart shows which price points generate the highest sales volume and can serve as inspiration for your IWP pricing strategy:
+
+<img width="2096" height="1024" alt="upscalemedia-transformed (1)" src="https://github.com/user-attachments/assets/d67ea565-be77-400a-aa7e-9f7afcca3ddf" />
+
 ### 4.5 - Live Service Strategy: Keeping Your Store Fresh
 Treat your world as a live, evolving service. A static store becomes stale.
 
-**Run Limited-Time Events**: Host a two-week "Winter Festival" event. Introduce exclusive, limited-time IWPs like a "Snowball Launcher" weapon skin. This creates urgency (FOMO - Fear Of Missing Out) and drives sales.
+**Run Limited-Time Events**: Host a two-week "Winter Festival" event. Introduce exclusive, limited-time IWPs like a "Snowball Launcher" weapon skin. This creates urgency and could be a effective way to drive sales.
 
-**Implement Sales & Promotions**: Once a quarter, run a "2x Currency" weekend. All Meta Credit purchases of your in-world currency packs are doubled.
+**Implement Sales & Promotions**: Once a month Run a "2x Currency" weekend. All Meta Credit purchases of in-world currency packs are doubled. Or run discount campaigns like 20% off bundles or 40% off consumables.
 
-**Tie Products to Content Updates**: When you release a major world update, release a new, themed IWP alongside it. If you add the "Shadow Dungeons," sell a "Shadow Armor" cosmetic set in the store.
+**Tie Products to Content Updates**: When you release a major world update, release new, themed IWP alongside it. This strategy works because it capitalizes on player excitement around new content.
+
+### 4.6 - Additional Monetization Method
+
+The Kudos panel
+
+The Kudos Panel is a way to help you monetize your worlds and is available in the VR headset editor. The Kudos Panel is a ready-to-use asset that automatically configures your world to allow people to purchase Kudos and show their support for your creations.
+
+If you’d like more information about the Kudos Panel, please refer to Meta Horizon Worlds Kudos Panel Instructions.
+
+https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/meta-horizon-worlds-kudos-panel-instructions
 
 # Step 5: Revenue Multiplier - Meta Horizon Creator Bonus Programs
 
-Beyond direct sales, Meta offers substantial bonus programs that can significantly boost your earnings. Understanding and optimizing for these bonuses is crucial for maximizing revenue.
+Beyond direct sales, Meta offers bonus programs that can significantly boost your earnings. Understanding and optimizing for these bonuses is crucial for maximizing revenue.
+
+<img width="899" height="449" alt="462093607_559683916569564_3535396003365802406_n" src="https://github.com/user-attachments/assets/3b8122e3-67ff-4fc6-9420-4021ff972883" />
 
 ## Understanding the Bonus System
 
@@ -364,7 +359,7 @@ Each world has a monthly maximum limit of **$250,000** across all bonus types, b
 - Members are eligible to earn for the first 28 days of the month, regardless of when they sign up
 - All monthly bonus earnings paid within 60 days following the end of each bonus period
 
-## 5.1 - Time Spent on Headset Bonus
+### 5.1 - Time Spent on Headset Bonus
 
 **What it rewards**: Creating worlds that attract the most VR engagement time.
 
@@ -387,9 +382,9 @@ Focus on retention mechanics:
 - Daily quest systems
 - Social features (guilds, friend systems)
 - Progressive unlock systems
-- Longer session design (30-60 minutes average in VR)
+- Longer session design (aim for 30-60 minutes average in VR)
 
-## 5.2 - Time Spent on Mobile Bonus
+### 5.2 - Time Spent on Mobile Bonus
 
 **What it rewards**: Creating worlds that attract mobile device engagement.
 
@@ -413,7 +408,7 @@ Same percentage-based system as headset bonus, but for mobile engagement time.
 - Optimize for touch controls and smaller screens
 - Focus on accessibility and ease of use
 
-## 5.3 - In-World Purchase Bonus (Revenue Multiplier)
+### 5.3 - In-World Purchase Bonus (Revenue Multiplier)
 
 **What it rewards**: Successful monetization through direct sales with a performance multiplier.
 
@@ -453,7 +448,7 @@ Both generate the same revenue, but the first strategy earns 110% multiplier whi
 3. **Use low-ticket offers** to convert more visitors into buyers
 4. **Implement progression systems** that encourage multiple small purchases
 
-## 5.4 - Mobile Milestone Rewards (One-Time Bonuses)
+### 5.4 - Mobile Milestone Rewards (One-Time Bonuses)
 
 **What it rewards**: Reaching specific mobile engagement milestones with one-time payments.
 
@@ -482,7 +477,7 @@ Both generate the same revenue, but the first strategy earns 110% multiplier whi
 - Use milestones to fund initial world development
 - Provides significant early revenue while building audience for ongoing bonuses
 
-## 5.5 - Analytics and Tracking
+### 5.5 - Analytics and Tracking
 
 ### Accessing Your Data
 Navigate to **Creator Portal > Creator Program > Bonuses**
@@ -502,7 +497,7 @@ Navigate to **Creator Portal > Creator Program > Bonuses**
 ### Visitor Calculation Method
 Meta measures visitors over a **2-week rolling period**. For any given date, they count visitors who entered 7-13 days prior to that date.
 
-## 5.6 - Strategic Integration with Direct Sales
+### 5.6 - Strategic Integration with Direct Sales
 
 ### Multi-Stream Revenue Approach
 
@@ -521,7 +516,7 @@ Meta measures visitors over a **2-week rolling period**. For any given date, the
 4. **Fourth Priority**: Expand to mobile for additional bonus eligibility
 
 ### Balancing Act
-- Don't sacrifice direct sales to chase bonus metrics
+- You Don't have to sacrifice direct sales to get bonus metrics
 - Use bonuses to amplify existing successful monetization
 - Focus on sustainable long-term engagement over short-term metric manipulation
 
@@ -531,6 +526,10 @@ This bonus system can transform your monetization from single-stream revenue to 
 Don't guess what works—use data. Combine direct purchase analytics with bonus program metrics for comprehensive optimization.
 
 ### 6.1 - Essential Metrics to Track
+
+Important terms to know:
+<img width="1735" height="460" alt="Screenshot 2025-09-10 171810" src="https://github.com/user-attachments/assets/4125e862-f3a1-45ef-83fd-8479fc6930b0" />
+
 **Access your analytics**: Creator Portal > Creator Program > Bonuses. Data updates every 24 hours (may be delayed up to 2 days).
 
 **Core Performance Indicators**:
@@ -568,21 +567,11 @@ Test systematically to optimize both direct sales and bonus performance:
 - **Strategy**: Better to have 100 visitors spending 20 credits each than 200 visitors with 50 spenders at 40 credits each
 
 ### 6.4 - Revenue Performance Benchmarks
-**Acceptable Analytics Variance**:
-- 5% or less: Normal variance, no action needed
-- 5-15%: Monitor trends, investigate if increasing
-- 15%+: Immediate investigation required
 
 **Conversion Rate Optimization**:
 - **Target**: 1-3% conversion rate for gaming
 - **Low Performance**: <0.5% indicates fundamental issues
 - **Proven Strategies**: Context-sensitive offers, progressive monetization (start with low-value items), hybrid models combining direct sales with bonus optimization
-
-### 6.5 - Technical Performance Monitoring
-**Revenue-Critical Technical Metrics**:
-- Transaction success rate: Target >95%
-- Payment processing time: Target <30 seconds average
-- User support tickets: Target <5% of transactions
 
 ### 6.6 - Comprehensive Revenue Strategy
 **Multi-Stream Approach**:
