@@ -12,9 +12,9 @@ No prior monetization skills are necessary. However, a basic understanding of yo
 ## Description
 Learn how to build a robust and ethical monetization strategy directly into your world's design. This guide goes beyond simply explaining the tools; it provides a strategic framework with actionable steps for turning your creative vision into a successful business.
 
-We will start by architecting a balanced in-world economy and defining your world's "Core Loop"—the fundamental gameplay cycle that establishes inherent value in your world's items. From there, we will provide a detailed walkthrough of the official monetization tools, including a step-by-step guide to setting up your first In-World Purchase (IWP), which is the system that allows you to sell digital items to players.
+We will start by architecting a balanced in-world economy and defining your world's "Core Loop" the fundamental gameplay cycle that establishes inherent value in your world's items. From there, we will provide a detailed walkthrough of the official monetization tools and bonus requirements.
 
-You'll also learn advanced strategies for pricing and sales, including how to identify and cater to different player spending habits—from casual buyers ("Minnows") to dedicated supporters ("Whales"). Finally, we will cover how to use key metrics and analytics to test, refine, and optimize your strategy for long-term success.
+You'll also learn advanced strategies for pricing and sales, including how to identify and cater to different player spending habits from casual buyers to dedicated supporters. Finally, we will cover how to use key metrics and analytics to test, refine, and optimize your strategy for long-term success.
 
 ## Learning Objectives
 By reading and reviewing this guide, you will be able to:
@@ -76,13 +76,13 @@ Meta Horizon Worlds requires all creators to follow platform policies while buil
 Every purchase should provide clear, meaningful value to players. Whether convenience, customization, or exclusive content, ensure players understand what they're receiving.
 
 ### Avoid Pay-to-Win
-Premium purchases should not provide competitive advantages over free players in skill-based activities. Focus on cosmetics, convenience, and optional content rather than gameplay advantages.
+Be mindful of Premium purchases which provide competitive advantages over free players in skill-based activities. Try to focus on cosmetics, convenience, and optional content rather than large gameplay advantages which make it mostly or completely unfair.
 
 ### Transparent Pricing
 Clearly communicate what players receive for their money. Avoid hidden costs or misleading bundle descriptions.
 
 ### Policy Compliance
-All monetization must adhere to Meta Horizon Worlds Content Guidelines and Creator Code of Conduct. Violations can result in loss of monetization privileges and Creator Program membership.
+All monetization must adhere to [Meta Horizon Worlds Content Guidelines](https://www.meta.com/help/quest/481214418021533/?srsltid=AfmBOoqQrfDPddzOKdAv1CrqeForJP7hdmgiwJmrFcVC9sNhP21DPMys) and Creator Code of Conduct. Violations can result in loss of monetization privileges and Creator Program membership.
 
 ## Implementation Guidelines
 
